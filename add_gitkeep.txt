@@ -1,0 +1,7 @@
+Get-ChildItem -Path "data" -Recurse -Directory | ForEach-Object {
+    $gitkeepPath = Join-Path $_.FullName ".gitkeep"
+    if (-not (Test-Path $gitkeepPath)) {
+        New-Item -ItemType File -Path $gitkeepPath -Force | Out-Null
+        Write-Host "Añadido .gitkeep en $($_.FullName)"
+    }
+}
