@@ -1,3 +1,2 @@
 Powershell
 Get-ChildItem -Path "data\generated\" -Recurse -Filter *.pt | Remove-Item -Force
-Get-ChildItem -Path "data" -Recurse -Filter *.gitkeep | Remove-Item -Force
