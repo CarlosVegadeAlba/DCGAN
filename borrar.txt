@@ -1,2 +1,4 @@
 Powershell
 Get-ChildItem -Path "data\generated\" -Recurse -Filter *.pt | Remove-Item -Force
+
+Get-ChildItem -Path "data\generated\models\" -Recurse -Filter *.pt | Remove-Item -Force
