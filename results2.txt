@@ -1,0 +1,49 @@
+Resnet34
+110. Training Resnet34 for 5 epochs
+	training data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt for 0/5 epochs
+	1. Loaded data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt [GPU] Used: 2098.04 MB | Reserved: 2520.00 MB
+	2. Finished epoch 0 - data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt [GPU] Used: 2357.21 MB | Reserved: 4658.00 MB
+	[Epoch 1/5] Loss: 1.5580 | Accuracy: 0.4711 | Time: 17.14s
+	2. Finished epoch 1 - data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt [GPU] Used: 2357.21 MB | Reserved: 4658.00 MB
+	[Epoch 2/5] Loss: 1.0390 | Accuracy: 0.6590 | Time: 17.16s
+	2. Finished epoch 2 - data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt [GPU] Used: 2357.21 MB | Reserved: 4658.00 MB
+	[Epoch 3/5] Loss: 0.8237 | Accuracy: 0.7295 | Time: 17.23s
+	2. Finished epoch 3 - data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt [GPU] Used: 2357.21 MB | Reserved: 4658.00 MB
+	[Epoch 4/5] Loss: 0.6501 | Accuracy: 0.7880 | Time: 17.09s
+	2. Finished epoch 4 - data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt [GPU] Used: 2357.21 MB | Reserved: 4658.00 MB
+	[Epoch 5/5] Loss: 0.4808 | Accuracy: 0.8438 | Time: 17.18s
+	Modelo data\generated\models\classificators\Resnet34_lr=0.00010_imagenette2.pt entrenado durante 5 épocas. Tiempo total: 85.80s
+
+
+MobileNet_v2
+210. Training MobileNet_v2 for 5 epochs
+	training data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt for 0/5 epochs
+	1. Loaded data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt [GPU] Used: 2025.34 MB | Reserved: 2520.00 MB
+	2. Finished epoch 0 - data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt [GPU] Used: 2062.13 MB | Reserved: 6294.00 MB
+	[Epoch 1/5] Loss: 1.7743 | Accuracy: 0.3699 | Time: 13.73s
+	2. Finished epoch 1 - data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt [GPU] Used: 2062.13 MB | Reserved: 6294.00 MB
+	[Epoch 2/5] Loss: 1.2981 | Accuracy: 0.5630 | Time: 13.71s
+	2. Finished epoch 2 - data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt [GPU] Used: 2062.13 MB | Reserved: 6294.00 MB
+	[Epoch 3/5] Loss: 1.1135 | Accuracy: 0.6288 | Time: 13.55s
+	2. Finished epoch 3 - data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt [GPU] Used: 2062.13 MB | Reserved: 6294.00 MB
+	[Epoch 4/5] Loss: 0.9598 | Accuracy: 0.6886 | Time: 13.95s
+	2. Finished epoch 4 - data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt [GPU] Used: 2062.13 MB | Reserved: 6294.00 MB
+	[Epoch 5/5] Loss: 0.8389 | Accuracy: 0.7259 | Time: 13.98s
+	Modelo data\generated\models\classificators\MobileNet_v2_lr=0.00050_imagenette2.pt entrenado durante 5 épocas. Tiempo total: 68.93s
+
+
+SqueezeNet1_0
+310. Training SqueezeNet1_0 for 5 epochs
+	training data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt for 0/5 epochs
+	1. Loaded data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt [GPU] Used: 2019.06 MB | Reserved: 2518.00 MB
+	2. Finished epoch 0 - data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt [GPU] Used: 2038.47 MB | Reserved: 4940.00 MB
+	[Epoch 1/5] Loss: 2.2474 | Accuracy: 0.1569 | Time: 9.98s
+	2. Finished epoch 1 - data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt [GPU] Used: 2038.47 MB | Reserved: 4940.00 MB
+	[Epoch 2/5] Loss: 2.1236 | Accuracy: 0.2179 | Time: 9.95s
+	2. Finished epoch 2 - data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt [GPU] Used: 2038.47 MB | Reserved: 4940.00 MB
+	[Epoch 3/5] Loss: 2.0461 | Accuracy: 0.2706 | Time: 9.90s
+	2. Finished epoch 3 - data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt [GPU] Used: 2038.47 MB | Reserved: 4940.00 MB
+	[Epoch 4/5] Loss: 1.9786 | Accuracy: 0.3212 | Time: 9.91s
+	2. Finished epoch 4 - data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt [GPU] Used: 2038.47 MB | Reserved: 4940.00 MB
+	[Epoch 5/5] Loss: 1.8885 | Accuracy: 0.3791 | Time: 9.92s
+	Modelo data\generated\models\classificators\SqueezeNet1_0_lr=0.00100_imagenette2.pt entrenado durante 5 épocas. Tiempo total: 49.66s
