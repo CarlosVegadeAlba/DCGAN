@@ -6,3 +6,5 @@ Get-ChildItem -Path "data\generated\models\" -Recurse -Filter *.pt | Remove-Item
 Get-ChildItem -Path "data\generated\models\classificators" -Recurse -Filter *.pt | Remove-Item -Force
 
 Get-ChildItem -Path "data\generated\transformed_datasets" -Recurse -Filter *_C*.pt | Remove-Item -Force
+
+Get-ChildItem -Path "data\generated\models\" -Recurse -Filter *Model*.pt | Remove-Item -Force
