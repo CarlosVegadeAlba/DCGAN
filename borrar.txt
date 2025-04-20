@@ -1,10 +1,29 @@
 Powershell
+
+# BORRAR TODO
 Get-ChildItem -Path "data\generated\" -Recurse -Filter *.pt | Remove-Item -Force
 
+
+####################################### MODELOS #######################################
+# BORRAR TODOS LOS MODELOS
 Get-ChildItem -Path "data\generated\models\" -Recurse -Filter *.pt | Remove-Item -Force
 
+# BORRAR LOS MODELOS DE CLASSIFICATORS
 Get-ChildItem -Path "data\generated\models\classificators" -Recurse -Filter *.pt | Remove-Item -Force
 
+# BORRAR LOS MODELOS DE DCGAN
+Get-ChildItem -Path "data\generated\models" -Recurse -Filter *.pt | Where-Object { $_.FullName -notlike "*\classificators\*" } | Remove-Item -Force
+
+
+
+####################################### DATASETS #######################################
+# BORRAR TODOS LOS DATASETS CREADOS
+Get-ChildItem -Path "data\generated\transformed_datasets" -Recurse -Filter *.pt | Remove-Item -Force
+
+# BORRAR LOS DATASETS DE CLASSIFICATORS
 Get-ChildItem -Path "data\generated\transformed_datasets" -Recurse -Filter *_C*.pt | Remove-Item -Force
 
-Get-ChildItem -Path "data\generated\models\" -Recurse -Filter *Model*.pt | Remove-Item -Force
+# BORRAR LOS DATASETS DE DCGAN
+Get-ChildItem -Path "data\generated\transformed_datasets" -Recurse -File | Where-Object { $_.Name -notlike "*_C*.pt" } | Remove-Item -Force
+
+
