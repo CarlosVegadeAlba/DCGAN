@@ -15,3 +15,6 @@ data/**/*.JPG
 data/**/*.csv
 
 DCGAN_*
+classificators copy/*
+imagenette2_64 copy/*
+imagewoof2_64 copy/*
