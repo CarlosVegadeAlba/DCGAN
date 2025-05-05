@@ -18,3 +18,4 @@ DCGAN_*
 classificators copy/*
 imagenette2_64 copy/*
 imagewoof2_64 copy/*
+data/pretained_models/*.pth
