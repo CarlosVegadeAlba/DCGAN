@@ -9,7 +9,24 @@ class_names = ['tench', 'English springer', 'cassette player', 'chain saw',
                'church', 'French horn', 'garbage truck', 'gas pump', 'golf ball', 'parachute']
 
 # Crear vector one-hot desde los nombres de clase
+print('hola')
+
 class_vec = one_hot_from_names(class_names, batch_size=len(class_names))
+print('hola')
+
+# Obtener índices numéricos de las clases de ImageNet
+imagenet_classes = {
+    'tench': 0,
+    'English springer': 217,
+    'cassette player': 482,
+    'chain saw': 491,
+    'church': 497,
+    'French horn': 566,
+    'garbage truck': 569,
+    'gas pump': 571,
+    'golf ball': 574,
+    'parachute': 701
+}
 
 
 def generar_imagenes_gan(modelo_gan, modelName, class_vec, truncation=0.4):
@@ -59,23 +76,6 @@ def generar_imagenes_gan(modelo_gan, modelName, class_vec, truncation=0.4):
     plt.show()
 
     return output
-
-G_BigGan = make_gan(gan_type='biggan')  # BigGAN preentrenado (256px)
-generar_imagenes_gan(G_BigGan, 'BigGan', class_vec)
-
-# Obtener índices numéricos de las clases de ImageNet
-imagenet_classes = {
-    'tench': 0,
-    'English springer': 217,
-    'cassette player': 482,
-    'chain saw': 491,
-    'church': 497,
-    'French horn': 566,
-    'garbage truck': 569,
-    'gas pump': 571,
-    'golf ball': 574,
-    'parachute': 701
-}
 
 # Crear tensor de índices de clases
 class_indices = torch.tensor([imagenet_classes[name] for name in class_names], dtype=torch.long)
@@ -128,6 +128,9 @@ def generar_imagenes_studiogan(modelo_gan, modelName, class_indices, truncation=
     plt.show()
 
     return output
+
+G_BigGan = make_gan(gan_type='biggan')  # BigGAN preentrenado (256px)
+generar_imagenes_gan(G_BigGan, 'BigGan', class_vec)
 
 # Ejemplo de uso correcto:
 G = make_gan(gan_type='studiogan', model_name='SAGAN')  # asegúrate que el modelo es condicional
