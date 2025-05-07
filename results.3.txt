@@ -1,0 +1,40 @@
+VGG13
+5/10. Training VGG13 for 300 epochs
+	training data\generated\models\classificators\VGG13_lr=0.000100_imagenette2.pt for 0/300 epochs
+	[Epoch 1/300] Loss: 2.2538 | Accuracy train: 0.1503 | Accuracy Val: 0.1001 | Time: 65.64s
+		Best version of model hit at epoch 1, valAcc: 0.10012739151716232. parameters saved
+************************************************************ WARNING ************************************************************
+CUDA memory allocated: 3476.57 MB
+CUDA memory reserved: 10932.00 MB
+	[Epoch 2/300] Loss: 2.0408 | Accuracy train: 0.2762 | Accuracy Val: 0.2848 | Time: 60.38s
+		Best version of model hit at epoch 2, valAcc: 0.28484076261520386. parameters saved
+************************************************************ WARNING ************************************************************
+CUDA memory allocated: 3476.23 MB
+CUDA memory reserved: 10932.00 MB
+	[Epoch 3/300] Loss: 1.8667 | Accuracy train: 0.3548 | Accuracy Val: 0.3666 | Time: 88.90s
+		Best version of model hit at epoch 3, valAcc: 0.36662420630455017. parameters saved
+************************************************************ WARNING ************************************************************
+CUDA memory allocated: 3476.02 MB
+CUDA memory reserved: 10932.00 MB
+	[Epoch 4/300] Loss: 1.6908 | Accuracy train: 0.4289 | Accuracy Val: 0.5085 | Time: 77.71s
+		Best version of model hit at epoch 4, valAcc: 0.5085350275039673. parameters saved
+************************************************************ WARNING ************************************************************
+CUDA memory allocated: 3474.77 MB
+CUDA memory reserved: 10932.00 MB
+	[Epoch 5/300] Loss: 1.5848 | Accuracy train: 0.4695 | Accuracy Val: 0.5396 | Time: 88.86s
+		Best version of model hit at epoch 5, valAcc: 0.5396178364753723. parameters saved
+************************************************************ WARNING ************************************************************
+CUDA memory allocated: 3476.64 MB
+CUDA memory reserved: 10932.00 MB
+	[Epoch 6/300] Loss: 1.4733 | Accuracy train: 0.5130 | Accuracy Val: 0.5549 | Time: 94.36s
+		Best version of model hit at epoch 6, valAcc: 0.5549044609069824. parameters saved
+************************************************************ WARNING ************************************************************
+CUDA memory allocated: 3475.57 MB
+CUDA memory reserved: 10932.00 MB
+	[Epoch 7/300] Loss: 1.3829 | Accuracy train: 0.5394 | Accuracy Val: 0.6321 | Time: 88.64s
+		Best version of model hit at epoch 7, valAcc: 0.6321018934249878. parameters saved
+************************************************************ WARNING ************************************************************
+CUDA memory allocated: 3476.23 MB
+CUDA memory reserved: 10932.00 MB
+	[Epoch 8/300] Loss: 1.2849 | Accuracy train: 0.5719 | Accuracy Val: 0.6369 | Time: 84.98s
+		Best version of model hit at epoch 8, valAcc: 0.6369426846504211. parameters saved
