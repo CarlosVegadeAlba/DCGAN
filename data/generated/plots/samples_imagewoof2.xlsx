@@ -1,0 +1,4 @@
+Dataset,Australian terrier,Border terrier,Samoyed,Beagle,Shih-Tzu,English foxhound,Rhodesian ridgeback,Dingo,Golden retriever,Old English sheepdog,Total
+Training,941,942,932,580,949,943,949,928,921,940,9025
+Validation,409,408,418,224,401,407,401,422,429,410,3929
+Overall Total,,,,,,,,,,,12954

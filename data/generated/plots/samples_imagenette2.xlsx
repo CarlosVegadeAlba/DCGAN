@@ -1,0 +1,4 @@
+Dataset,tench,English springer,cassette player,chain saw,church,French horn,garbage truck,gas pump,golf ball,parachute,Total
+Training,963,955,993,858,941,956,961,931,951,960,9469
+Validation,387,395,357,386,409,394,389,419,399,390,3925
+Overall Total,,,,,,,,,,,13394

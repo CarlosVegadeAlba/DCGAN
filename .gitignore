@@ -6,8 +6,6 @@ data/**/*.tgz
 data/**/*.txt
 
 # Archivos de imagen en todos los formatos comunes
-data/**/*.png
-data/**/*.PNG
 data/**/*.jpg
 data/**/*.jpeg
 data/**/*.JPEG
