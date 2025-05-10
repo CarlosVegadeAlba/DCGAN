@@ -13,7 +13,9 @@ data/**/*.JPG
 data/**/*.csv
 
 DCGAN_*
-classificators copy/*
-imagenette2_64 copy/*
-imagewoof2_64 copy/*
+imagenette2_64*/*
+imagewoof2_64*/*
 data/pretained_models/*.pth
+classificators*/*
+plots*/*
+imagenet256.pkl
