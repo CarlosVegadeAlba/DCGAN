@@ -19,3 +19,4 @@ data/pretained_models/*.pth
 classificators*/*
 plots*/*
 imagenet256.pkl
+data/generated/datasets/*
