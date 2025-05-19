@@ -17,7 +17,12 @@ libraries = [
     "copy",
     "IPython",
     "Pillow",
-    "cv2"
+    "cv2",
+    "pandas",
+    "openpyxl",
+    "torchmetrics",
+    "pytorch_pretrained_gans",
+    "pytorch_pretrained_biggan"
 ]
 
 # Mapeo para paquetes cuyo nombre de instalación es diferente al nombre de importación
@@ -28,7 +33,12 @@ package_name_map = {
     "matplotlib": "matplotlib",
     "numpy": "numpy",
     "torch": "torch",
-    "torchvision": "torchvision"
+    "torchvision": "torchvision",
+    "pandas": "pandas",
+    "openpyxl": "openpyxl",
+    "torchmetrics": "torchmetrics",
+    "pytorch_pretrained_gans": "pytorch-pretrained-gans",
+    "pytorch_pretrained_biggan": "pytorch-pretrained-biggan"
 }
 
 # Solo paquetes que se pueden instalar con pip (excluye stdlib como os, time, etc.)

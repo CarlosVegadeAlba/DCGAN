@@ -5,6 +5,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Just a try to see if loading the model works
 
 nltk.download('wordnet')
 # 1. Cargar el modelo BigGAN preentrenado (256px)
