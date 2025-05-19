@@ -1,6 +1,6 @@
 # Generative and Classification Study on Imagenette and Imagewoof
 
-This repository explores generative models and their impact on image classification tasks using two subsets of ImageNet: **Imagenette** and **Imagewoof**. All experiments and analyses are implemented in a structured Jupyter notebook.
+This repository explores generative models and their impact on image classification tasks using two subsets of ImageNet: **Imagenette** and **Imagewoof**. All experiments and analyses are implemented in a structured Jupyter notebook, named DCGAN
 
 ---
 
